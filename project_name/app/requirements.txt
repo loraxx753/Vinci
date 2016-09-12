@@ -1,4 +1,4 @@
 #
-####### application/requirements.txt #######
+####### app/requirements.txt #######
 #
 # TKinter is an example type that would work here.
