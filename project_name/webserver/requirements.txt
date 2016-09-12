@@ -1,0 +1,4 @@
+#
+####### webserver/requirements.txt #######
+#
+# Django is a little more all-in-one when it comes to serving full sites.
