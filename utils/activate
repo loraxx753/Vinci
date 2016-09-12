@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import os, pprint
+
+pp = pprint.PrettyPrinter(indent=4)
+pp.pprint(os.environ)

@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Makes sure that the requirements have been frozen
+# before a commit is made to git
+
+CURRENT_DIR=$(pwd)
+cd $(git rev-parse --show-toplevel)
+pip3 freeze -r ./requirements.txt
+cd ${CURRENT_DIR}

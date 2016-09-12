@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Installs any requirements from requirements.txt
+# after git has pulled or rebased.
+
+CURRENT_DIR=$(pwd)
+cd $(git rev-parse --show-toplevel)
+pip3 install -r ./requirements.txt
+cd ${CURRENT_DIR}
